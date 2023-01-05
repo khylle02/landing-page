@@ -1,0 +1,144 @@
+
+html, body {
+    height: 100%;
+}
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+.header{
+    gap: 20px;
+    background-color: hsla(215, 28%, 17%, 1);
+    flex: 1 1 400px;
+
+}
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right{
+    display: flex;
+    margin: 20px;
+}
+.title{
+    width: 400px;
+    margin-left: 50px;
+}
+.bot{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* style */
+.logo{
+    color: white;
+    margin: 50px;
+}
+
+h1 {
+    color: white;
+}
+.header .bot {
+    color: white;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: hsla(217, 91%, 60%, 1);
+    color: white;
+    width: 100px;
+    border: none;
+    height: 25px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.container .bot img{
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+}
+/* content one */
+.content-one{
+    text-align: center;
+    margin-top: 20px;
+    height: 300px;
+}
+.container-one{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.info{
+    max-width: 180px;
+}
+
+.container .content-one .border{
+    width: 200px;
+    height: 120px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.container .content-one-text{
+    font-weight: bold;
+    font-size: 30px;
+}
+/* content two */
+.content-two {
+    background-color: hsla(220, 13%, 91%, 1);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-two .qoute{
+    width: 400px;
+}
+.content-two .qoute .qouted{
+    font-size: 20px;
+}
+.content-two .qoute .author{
+    margin-left: 220px;
+    font-weight: bold;
+}
+
+
+/* /content three */
+.content-three{
+    margin: 50px;
+    height: 300px;
+}
+.content-three .cont  {
+    background-color: rgb(32, 119, 119);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+.content-three .cont p{
+    margin: 0;
+    color: white;
+}
+.content-three .cont .call{
+    margin-top: 25px;
+    margin-left: 500px;
+}
+.content-three .cont .sign{
+    margin-left: 500px;
+}
+
+.content-three .cont button{
+    margin-top: 25px;
+    margin-right: 500px;
+}
